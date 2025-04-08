@@ -113,11 +113,11 @@ function ProfileMenu() {
 const accountItems = [
   {
     title: "Login",
-    href: "/astro-launch-ui/login"
+    href: "/login"
   },
   {
     title: "Sign Up",
-    href: "/astro-launch-ui/signup"
+    href: "/signup"
   }
 ];
 
@@ -181,15 +181,15 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "About Us",
-    href: "/astro-launch-ui/about"
+    href: "/about"
   },
   {
     title: "Landing Page",
-    href: "/astro-launch-ui/landing"
+    href: "landing"
   },
   {
     title: "404",
-    href: "/astro-launch-ui/404"
+    href: "404"
   },
 ];
  
@@ -249,35 +249,14 @@ function NavListMenu() {
   );
 }
  
-// nav list component
-const navListItems = [
-  {
-    label: "Docs",
-    icon: CodeBracketSquareIcon,
-  },
-];
+
  
 function NavList() {
   return (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
       <NavListMenu />
       <AccountListMenu />
-
-      {navListItems.map(({ label, icon }, key) => (
-        <Typography
-          key={label}
-          as="a"
-          href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
-          variant="small"
-          color="blue-gray"
-          className="font-normal"
-        >
-          <MenuItem className="flex items-center gap-2 lg:rounded-full">
-            {React.createElement(icon, { className: "h-[18px] w-[18px]" })}{" "}
-            {label}
-          </MenuItem>
-        </Typography>
-      ))}
+     
     </ul>
   );
 }
@@ -323,7 +302,7 @@ export default function ComplexNavbar() {
           href="/"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          AstroLaunch UI
+          Shaddai Soft S.A.S
         </Typography>
         <div className="hidden lg:flex ml-auto">
           <NavList />
@@ -338,7 +317,7 @@ export default function ComplexNavbar() {
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
         <a href="https://discord.gg/WCvQWMwT" target="_blank">
-          <Button size="sm" color="dark" variant="text">
+          <Button size="sm"  variant="text">
             <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
           </Button>
         </a>
@@ -347,9 +326,7 @@ export default function ComplexNavbar() {
             <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="/astro-launch-ui/#examplePages">
-          <Button color="dark">Get started</Button>
-        </a>
+        
       </div>
       <Collapse open={isNavOpen} className="overflow-scroll">
         <NavList />
