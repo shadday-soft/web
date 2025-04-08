@@ -22,14 +22,14 @@ export function HeroPresentation() {
                 variant="small"
                 className="mr-3 py-0.5 px-3 font-bold text-dark uppercase border-r border-dark"
               >
-                New
+                Diseño
               </Typography>
               <Typography
                 color="dark"
                 variant="small"
                 className="flex items-center font-bold uppercase"
               >
-                Astro Starter Template
+                ingeniería
               </Typography>
             </div>
             <Typography
@@ -37,15 +37,15 @@ export function HeroPresentation() {
               color="blue-gray"
               className="mb-8 lg:mr-32 leading-tight font-black"
             >
-              The perfect foundation for your <span className="text-blue">Astro Project</span>
+              El aliado perfecto para <span className="text-blue">tu Negocio</span>
             </Typography>
-            <Typography variant="lead" color="blue-gray" className="lg:pr-32">
-              AstroLaunch UI is a free template designed to be both lightweight and feature-rich. It comes packed with everything you need to get your Online Store ready in no time.
+            <Typography variant="lead" color="blue-gray" className="lg:pr-32 text-justify">
+             En Shaddai estamos comprometidos a brindarte soluciones tecnológicas de alta calidad y a la medida de tus necesidades. Nuestro equipo de expertos está listo para ayudarte a llevar tu negocio al siguiente nivel.
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#pricing">
                 <Button color="dark" className="flex items-center">
-                  Get Started
+                  ELIGE
                 </Button>
               </a>
             </div>
