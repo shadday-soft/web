@@ -12,13 +12,16 @@ import PagesFreePresentation from "../components/presentation/pagesFree";
 import GithubPresentation from "../components/presentation/github";
 import PricingPresentation from "../components/presentation/pricing";
 import FooterFreePresentation from "../components/presentation/footerFree";
+
+import  Marquee  from "../components/Marquee";
 ---
 
 <Layout title="Inicio">
   <main>
+ 
     <HeaderPresentation client:only="react" />
     <FeaturePresentation client:only="react" />
-    <LogosPresentation client:only="react" />
+    <!-- <LogosPresentation client:only="react" /> -->
     <DevFreePresentation client:only="react" />
     <PalettePresentationFree client:only="react" />
     <CodePresentation client:only="react" />

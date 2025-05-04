@@ -8,13 +8,17 @@ import Navbar from "../navbar";
 import {
   ArrowSmallRightIcon,
 } from "@heroicons/react/24/outline";
+import  Marquee  from "../Marquee";
+import  {TextGenerateEffectDemo}  from "./textEffect";
+import { BackgroundBeamsWithCollision } from "../ui/background-beams-with-collision";
 
 export function HeroPresentation() {
  
   return (
     <ThemeProvider>
       <Navbar />
-      <header className="h-full w-screen place-items-center bg-white relative px-8 py-8 lg:mb-36">
+      <header className="h-full w-screen place-items-center bg-white relative px-8 py-8 lg:mb-12">
+      <BackgroundBeamsWithCollision>
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="text-center lg:text-left pt-32">
             <div className="mb-8 inline-flex items-center">
@@ -39,9 +43,8 @@ export function HeroPresentation() {
             >
               El aliado perfecto para <span className="text-blue">tu Negocio</span>
             </Typography>
-            <Typography variant="lead" color="blue-gray" className="lg:pr-32 text-justify">
-             En Shaddai estamos comprometidos a brindarte soluciones tecnológicas de alta calidad y a la medida de tus necesidades. Nuestro equipo de expertos está listo para ayudarte a llevar tu negocio al siguiente nivel.
-            </Typography>
+            <TextGenerateEffectDemo></TextGenerateEffectDemo>
+          
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#pricing">
                 <Button color="dark" className="flex items-center">
@@ -51,8 +54,9 @@ export function HeroPresentation() {
             </div>
           </div>
         </div>
+        </BackgroundBeamsWithCollision>
         <div className="hidden lg:flex">
-          <img src="header.png" alt="components" className="absolute -top-10 right-0 w-1/2" />
+        <Marquee />
         </div>
       </header>
     </ThemeProvider>
