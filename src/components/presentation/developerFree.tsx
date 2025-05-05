@@ -34,7 +34,7 @@ export function DevPresentation() {
               style={{
                 transform: "rotateX(10deg) translateZ(100px)",
               }}
-              className="p-1 rounded-xl dark:bg-neutral-900 bg-neutral-100 border-neutral-200 dark:border-neutral-800  w-full h-full"
+              className="p-1 rounded-xl dark:bg-neutral-900 bg-neutral-100 border-neutral-200 dark:border-neutral-800 mt-10 md:mt-0  w-full h-full"
             >
               <Compare
                 firstImage="captura-excel.PNG"
