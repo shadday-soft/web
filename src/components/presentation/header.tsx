@@ -20,7 +20,7 @@ export function HeroPresentation() {
       <header className="h-full w-screen place-items-center bg-white relative px-8 py-8 lg:mb-12">
       <BackgroundBeamsWithCollision>
         <div className="container mx-auto grid items-center lg:grid-cols-2">
-          <div className="text-center lg:text-left pt-32">
+          <div className="text-center lg:text-left pt-3">
             <div className="mb-8 inline-flex items-center">
               <Typography
                 variant="small"
@@ -29,11 +29,18 @@ export function HeroPresentation() {
                 Diseño
               </Typography>
               <Typography
-                color="dark"
+                color="gray"
+                variant="small"
+                className="flex items-center mr-3 py-0.5 px-3 font-bold text-dark uppercase border-r border-dark"
+              >
+                Ingeniería
+              </Typography>
+              <Typography
+                color="gray"
                 variant="small"
                 className="flex items-center font-bold uppercase"
               >
-                ingeniería
+                Software
               </Typography>
             </div>
             <Typography
@@ -47,7 +54,7 @@ export function HeroPresentation() {
           
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#pricing">
-                <Button color="dark" className="flex items-center">
+                <Button color="gray" className="flex items-center">
                   ELIGE
                 </Button>
               </a>

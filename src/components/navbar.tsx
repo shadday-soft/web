@@ -297,6 +297,7 @@ export default function ComplexNavbar() {
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
+        <img src="logo-sin-letras.png" className="w-10"></img>
         <Typography
           as="a"
           href="/"
