@@ -17,11 +17,11 @@ export function HeroPresentation() {
   return (
     <ThemeProvider>
       
-      <header className="h-full w-screen place-items-center bg-white relative px-8 my-10">
+      <header className="h-full w-screen place-items-center bg-white relative px-8 my-4 lg:my-10">
       <BackgroundBeamsWithCollision>
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="text-center lg:text-left pt-3">
-            <div className="mb-8 inline-flex items-center">
+            <h2 className="mb-8 inline-flex items-center">
               <Typography
                 variant="small"
                 className="mr-3 py-0.5 px-3 font-bold text-dark uppercase border-r border-dark"
@@ -42,7 +42,7 @@ export function HeroPresentation() {
               >
                 Software
               </Typography>
-            </div>
+            </h2>
             <Typography
               variant="h1"
               color="blue-gray"
