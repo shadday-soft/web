@@ -179,11 +179,11 @@ export const Compare = ({
           <div className="w-10 h-3/4 top-1/2 -translate-y-1/2 absolute -right-10 [mask-image:radial-gradient(100px_at_left,white,transparent)]">
             <MemoizedSparklesCore
               background="transparent"
-              minSize={0.4}
-              maxSize={1}
+              minSize={0.9}
+              maxSize={2}
               particleDensity={1200}
               className="w-full h-full"
-              particleColor="#FFFFFF"
+              particleColor="#000"
             />
           </div>
           {showHandlebar && (

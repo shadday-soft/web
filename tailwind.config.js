@@ -45,7 +45,7 @@ module.exports = withMT({
   				foreground: 'hsl(var(--popover-foreground))'
   			},
   			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
+  				DEFAULT: '#6ca3c1',
   				foreground: 'hsl(var(--primary-foreground))'
   			},
   			secondary: {

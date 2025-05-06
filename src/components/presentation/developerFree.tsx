@@ -13,7 +13,7 @@ export function DevPresentation() {
               color="blue"
               className="flex items-center font-bold text-lg mb-5"
             >
-              Un Antes y un Después de Nosotros
+              Tienes Excel que lo hacen todo
             </Typography>
 
             <Typography
@@ -21,12 +21,12 @@ export function DevPresentation() {
               color="blue-gray"
               className="mb-4 leading-tight"
             >
-              Deja de usar Excel en exceso, y empieza a usar tus propias soluciones
+             No más Excel en exceso, empieza a utilizar tus propias soluciones
             </Typography>
-            <Typography color="blue-gray" className="lg:pr-32">
-              Nosotros nos encargamos de que tu empresa tenga la mejor herramienta
-              para gestionar tus procesos, lo hacemos a tu medida, a tu ritmo y que te facilite
-              la vida.
+            <Typography color="blue-gray" className="lg:pr-32 text-justify">
+              Nosotros nos encargamos de que tu empresa tenga las mejores herramienta
+              para gestionar tus procesos, lo hacemos a tu medida, a tu ritmo y para que te facilite
+              la vida a ti y a tus colaboradores.
             </Typography>
           </div>
           <div className="h-[60vh] px-1 md:px-8 flex items-center justify-center [perspective:800px] [transform-style:preserve-3d]">

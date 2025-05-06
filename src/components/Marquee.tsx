@@ -21,22 +21,21 @@ export default function ThreeDMarqueeDemo() {
     "https://assets.aceternity.com/cloudinary_bkp/Spotlight_ar5jpr.png",
     "https://assets.aceternity.com/cloudinary_bkp/Parallax_Scroll_pzlatw_anfkh7.png",
     "https://assets.aceternity.com/tabs.png",
+    "card-shadday.png",
     "https://assets.aceternity.com/cloudinary_bkp/Tracing_Beam_npujte.png",
-    "https://assets.aceternity.com/cloudinary_bkp/typewriter-effect.png",
     "https://assets.aceternity.com/glowing-effect.webp",
     "https://assets.aceternity.com/hover-border-gradient.png",
     "https://assets.aceternity.com/cloudinary_bkp/Infinite_Moving_Cards_evhzur.png",
-    "https://assets.aceternity.com/cloudinary_bkp/Lamp_hlq3ln.png",
     "https://assets.aceternity.com/macbook-scroll.png",
     "https://assets.aceternity.com/cloudinary_bkp/Meteors_fye3ys.png",
     "https://assets.aceternity.com/cloudinary_bkp/Moving_Border_yn78lv.png",
     "https://assets.aceternity.com/multi-step-loader.png",
+    "card-shadday.png",
     "https://assets.aceternity.com/vortex.png",
     "https://assets.aceternity.com/wobble-card.png",
-    "https://assets.aceternity.com/world-map.webp",
   ];
   return (
-    <div className="mt-16  absolute -top-10 right-0 w-1/2 max-w-7xl">
+    <div className="top-6 absolute right-0 w-1/2">
       <ThreeDMarquee images={images} />
     </div>
   );

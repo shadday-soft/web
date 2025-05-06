@@ -5,10 +5,6 @@ import {
   IconCloud,
   IconCurrencyDollar,
   IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
 } from "@tabler/icons-react";
 
 export default function FeaturesSectionDemo() {
@@ -36,10 +32,6 @@ export default function FeaturesSectionDemo() {
       description: "Estaremos actualizando tu producto todo el tiempo.",
       icon: <IconCloud />,
     },
-   
-   
- 
-   
   ];
   return (
     <div>
@@ -50,7 +42,7 @@ export default function FeaturesSectionDemo() {
       
     </div>
 
-    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4  relative  py-10 max-w-7xl mx-auto">
+    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4  relative py-5 max-w-7xl mx-auto">
       {features.map((feature, index) => (
         <Feature key={feature.title} {...feature} index={index} />
       ))}

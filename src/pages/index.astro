@@ -12,12 +12,14 @@ import PagesFreePresentation from "../components/presentation/pagesFree";
 import GithubPresentation from "../components/presentation/github";
 import PricingPresentation from "../components/presentation/pricing";
 import FooterFreePresentation from "../components/presentation/footerFree";
-
 import  Marquee  from "../components/Marquee";
+import NavbarDemo from "../components/navbar";
+import WhatsappButton from "../components/WhatsappButton";
 ---
 
 <Layout title="Inicio">
   <main>
+    <NavbarDemo client:only="react"/>
     <HeaderPresentation client:only="react" />
     <FeaturePresentation client:only="react" />
     <!-- <LogosPresentation client:only="react" /> -->
@@ -30,5 +32,6 @@ import  Marquee  from "../components/Marquee";
     <PricingPresentation client:only="react" />
     <GithubPresentation client:only="react" />
     <FooterFreePresentation client:only="react" />
+    <WhatsappButton client:only="react"></WhatsappButton>
   </main>
 </Layout>

@@ -18,7 +18,7 @@ export const ThreeDMarquee = ({
   return (
     <div
       className={cn(
-        "mx-auto block h-[600px] overflow-hidden rounded-md max-sm:h-100",
+        "mx-auto block h-[62vh] overflow-hidden rounded-md max-sm:h-100",
         className,
       )}
     >
@@ -57,8 +57,8 @@ export const ThreeDMarquee = ({
                       src={image}
                       alt={`Image ${imageIndex + 1}`}
                       className="aspect-[970/700] rounded-md object-cover ring ring-gray-950/5 hover:shadow-2xl"
-                      width={400}
-                      height={300}
+                      width={300}
+                      height={250}
                     />
                   </div>
                 ))}

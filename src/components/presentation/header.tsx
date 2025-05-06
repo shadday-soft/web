@@ -16,8 +16,8 @@ export function HeroPresentation() {
  
   return (
     <ThemeProvider>
-      <Navbar />
-      <header className="h-full w-screen place-items-center bg-white relative px-8 lg:mb-12">
+      
+      <header className="h-full w-screen place-items-center bg-white relative px-8 my-10">
       <BackgroundBeamsWithCollision>
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="text-center lg:text-left pt-3">
@@ -48,21 +48,21 @@ export function HeroPresentation() {
               color="blue-gray"
               className="mb-8 lg:mr-32 leading-tight font-black"
             >
-              El aliado perfecto para <span className="text-blue">tu Negocio</span>
+              El aliado perfecto para <span className="text-primary">tu Negocio</span>
             </Typography>
             <TextGenerateEffectDemo></TextGenerateEffectDemo>
           
-            <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
+            <div className="mt-4 lg:mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#pricing">
-                <Button color="gray" className="flex items-center">
-                  ELIGE
+                <Button  className="flex items-center bg-primary rounded-xl">
+                  ELIGE tu plan
                 </Button>
               </a>
             </div>
           </div>
         </div>
         </BackgroundBeamsWithCollision>
-        <div className="hidden lg:flex">
+        <div className="hidden lg:flex ">
         <Marquee />
         </div>
       </header>
