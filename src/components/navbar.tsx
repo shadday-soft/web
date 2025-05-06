@@ -14,18 +14,19 @@ import { useState } from "react";
 
 export default function NavbarDemo() {
   const navItems = [
-    {
-      name: "Features",
-      link: "#features",
-    },
-    {
-      name: "Pricing",
-      link: "#pricing",
-    },
-    {
-      name: "Contact",
-      link: "#contact",
-    },
+    {}
+    // {
+    //   name: "Features",
+    //   link: "#features",
+    // },
+    // {
+    //   name: "Pricing",
+    //   link: "#pricing",
+    // },
+    // {
+    //   name: "Contact",
+    //   link: "#contact",
+    // },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ export default function NavbarDemo() {
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />
-          <NavItems items={navItems} />
+          {/* <NavItems items={navItems} /> */}
           <div className="flex items-center gap-4">
             <NavbarButton variant="secondary">Login</NavbarButton>
             <NavbarButton variant="primary">Book a call</NavbarButton>

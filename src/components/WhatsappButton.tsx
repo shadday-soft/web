@@ -11,7 +11,6 @@ const WhatsappButton = () => {
         initialMessageByClient='¡Hola! Encontré tu contacto en tu sitio web. Me gustaría hablar contigo sobre......' // Optional
         statusMessage='Activo' // Optional
         startChatText='Iniciar Chat' // Optional
-        tooltipText='Quieres Internarlo? Ir al Chat!' // Optional
         allowEsc={true} // Optional
         // Explore all available props below
       />
