@@ -32,7 +32,7 @@ export function DevPresentation() {
           <div className="h-[60vh] px-1 md:px-8 flex items-center justify-center [perspective:800px] [transform-style:preserve-3d]">
             <div
               style={{
-                transform: "rotateX(10deg) translateZ(100px)",
+                transform: "rotateX(0deg) translateZ(100px)",
               }}
               className="p-1 rounded-xl dark:bg-neutral-900 bg-neutral-100 border-neutral-200 dark:border-neutral-800 mt-10 md:mt-0  w-full h-full"
             >

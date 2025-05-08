@@ -9,7 +9,7 @@ import ThemeProvider from "../theme-provider";
 function StatsCard({ count, title, desc }) {
   return (
     <Card color="transparent" shadow={false}>
-      <Typography variant="h1" className="mb-4 text-5xl text-dark">
+      <Typography variant="h3" className="mb-4 text-5xl text-dark">
         {count}
       </Typography>
       <Typography variant="h5" color="blue-gray">

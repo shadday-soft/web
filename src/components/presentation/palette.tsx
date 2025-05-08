@@ -30,7 +30,7 @@ export function PalettePresentation() {
               Diseñamos soluciones que combinan funcionalidad y estética superior.
             </Typography>
             <Typography color="gray" className="lg:pr-20">
-              Customize your colors, sizes, spacing or typography in minutes so they can fit perfectly for your brand. Spend time creating dApps logic and UX, our tools take care of the rest.
+              Aseguramos el éxito de tu proyecto con un enfoque en la calidad, innovación y atención al detalle durante toda la fase de contrucción de tu proyecto, haremos de lo bueno aun mejor.
             </Typography>
             
           </div>

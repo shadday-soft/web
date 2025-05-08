@@ -12,6 +12,7 @@ const WhatsappButton = () => {
         statusMessage='Activo' // Optional
         startChatText='Iniciar Chat' // Optional
         allowEsc={true} // Optional
+        messageDelay={0.5} // Optional
         // Explore all available props below
       />
     </div>

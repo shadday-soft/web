@@ -6,10 +6,10 @@ import {
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 
-function StatsCard({ count, title, desc }) {
+function StatsCard({ count, title, desc }: { count: string, title: string, desc: string}) {
   return (
     <Card color="transparent" shadow={false}>
-      <Typography variant="h1" className="mb-4 text-5xl text-dark">
+      <Typography variant="h3" className="mb-4 text-5xl text-dark">
         {count}
       </Typography>
       <Typography variant="h5" color="blue-gray">
@@ -24,25 +24,21 @@ function StatsCard({ count, title, desc }) {
 
 const stats = [
   {
-    count: "140+",
-    title: "Coded Elements",
-    desc: "From buttons, to inputs, navbars, alerts, tabels, cards or charts."
+    count: "10+",
+    title: "Procesos Optimizados",
+    desc: "Hemos optimizado 10+ procesos para mejorar la eficiencia y la productividad de nuestros clientes."
   },
   {
-    count: "10",
-    title: "Example Pages",
-    desc: "Save months of work when you use our pre-made pages."
+    count: "5",
+    title: "Aplicaciones",
+    desc: "Las aplicaciones que creamos estan incluidas en en todo los procesos de nuestros clientes."
   },
   {
-    count: "30+",
-    title: "Design Blocks",
-    desc: "Mix the already made sections and unleash your creativity."
+    count: "3",
+    title: "Clientes",
+    desc: "Somos pequeños pero ya los grandes confian en nosotros."
   },
-  {
-    count: "40+",
-    title: "Global Styles",
-    desc: "Colors, typography system, shadows, and blur effects are ready to be used."
-  },
+ 
 ];
 
 export function FigmaPresentation() {
@@ -56,18 +52,18 @@ export function FigmaPresentation() {
               color="blue"
               className="font-bold text-lg mb-5"
             >
-              Fully Coded Components based on Astro
+              Esto es lo que somos
             </Typography>
 
             <Typography
               variant="h2"
               color="blue-gray"
-              className="mb-8 leading-tight"
+              className="mb-2 leading-tight"
             >
-              Astro LaunchUI Pro
+              Shaddai Soft
             </Typography>
-            <Typography color="blue-gray" className="mb-5 lg:w-[30rem]">
-              All the sections and pages made with these elements will be fully responsive and will look beautiful on all types of screens, including phones, tables, or desktops.
+            <Typography color="blue-gray" className="mb-5 lg:w-[30rem] text-justify">
+             Somos una empresa de desarrollo de software con un equipo profesional comprometido con la excelencia. Creamos soluciones tecnológicas innovadoras adaptadas a las necesidades de nuestros clientes.
             </Typography>
           </div>
           <div className="lg:flex relative">
@@ -78,11 +74,7 @@ export function FigmaPresentation() {
                     <StatsCard key={key} {...props} />
                   ))}
                 </div>
-                <a href="https://www.creative-tim.com/product/astro-launch-ui-pro" target="_blank">
-                  <Button color="gray" className="flex items-center">
-                     Astro Pro
-                  </Button>
-                </a>
+               
               </div>
             </div>
             <img src="components.png" alt="iphone" className="lg:w-1/2 rounded-3xl hidden md:flex ml-auto lg:absolute -right-32 -top-24" />

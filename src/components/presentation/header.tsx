@@ -44,7 +44,7 @@ export function HeroPresentation() {
               </Typography>
             </h2>
             <Typography
-              variant="h1"
+              variant="h2"
               color="blue-gray"
               className="mb-8 lg:mr-32 leading-tight font-black"
             >
