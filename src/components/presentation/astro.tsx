@@ -12,28 +12,23 @@ export function AstroSection() {
         >
           <CardBody className="md:py-20 md:px-14 md:w-7/12">
             <Typography color="white" className="font-bold">
-              Frontend web architecture
+              Nuestra Huella
             </Typography>
             <Typography
-              variant="h2"
+              variant="h3"
               color="white"
               className="mb-5 font-normal"
             >
-              What is Astro?
+              Porque Elegirnos?
             </Typography>
             <Typography variant="lead" color="white">
-              Astro is an all-in-one web framework for building fast, content-focused websites. The framework is based in Astro Islands architecture, which represents a leading paradigm shift for frontend web architecture.
+              Nuestros proceso de ingeniería y desarrollo de software nos hace diferentes. Nuestra misión es crear soluciones tecnológicas innovadoras que impulsen el éxito de nuestros clientes. Nuestro equipo está dedicado a brindar soluciones personalizadas y de alta calidad.
             </Typography>
-            <a href="https://github.com/creativetimofficial/astro-launch-ui">
-              <Button color="white" size="sm" variant="outlined" className="flex items-center mt-12">
-                Get Started
-              </Button>
-            </a>
           </CardBody>
           <div className="relative grid h-96 place-items-center md:h-auto md:w-5/12">
             <img
-              src="astro.png"
-              alt="astro"
+              src="logo.gif"
+              alt="logo gif"
               className="h-full w-full object-cover md:absolute"
             />
           </div>
